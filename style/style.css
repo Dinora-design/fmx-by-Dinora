@@ -73,7 +73,7 @@ hr {
 }
 
 @media (min-width: 320px) and (max-width: 1200px) {
-  hr {
+  #top-menu-line {
     margin-top: 135px;
   }
 }
@@ -687,7 +687,6 @@ body .content .title h2 {
   font-weight: 700;
   font-size: 80px;
   line-height: 80px;
-  letter-spacing: 6px;
   font-family: "Exo 2", sans-serif;
   color: #020105;
 }

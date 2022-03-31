@@ -61,7 +61,7 @@ hr{
     margin: 0 auto;
 }
 
-hr{
+#top-menu-line{
     @media (min-width: 320px) and (max-width: 1200px){
         margin-top: 135px;
     }
@@ -475,7 +475,6 @@ body{
                         font-weight: 700;
                         font-size: 80px;
                         line-height: 80px;
-                        letter-spacing: 6px;
                         font-family: $exo-2;
                         color: $black-2;
                         @media (min-width: 320px) and (max-width: 480px){
