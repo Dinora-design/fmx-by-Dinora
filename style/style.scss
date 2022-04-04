@@ -124,7 +124,7 @@ body{
             width: 100%;
             padding: 40px 0 40px 0;
             @media screen and (max-width: 1200px){
-                width: 80%;
+                width: 90%;
                 margin: 0 auto;
             }
             @media (min-width: 320px) and (max-width: 480px){
@@ -376,7 +376,7 @@ body{
                             opacity: 0;
                             transition: .3s;
                         }
-                        a:hover i{
+                        .dropdown:hover i{
                             transform: rotate(180deg);
                         }
                         .about-main-menu-link:hover.about-main-menu-link::after{
@@ -446,7 +446,7 @@ body{
                         }
                         
                     }
-                    a:hover i{
+                    .dropdown:hover i{
                         transform: rotate(180deg);
                     }
                     .about-main-menu-link{

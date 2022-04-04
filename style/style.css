@@ -164,7 +164,7 @@ body .top-menu {
 
 @media screen and (max-width: 1200px) {
   body .top-menu {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 }
@@ -532,7 +532,7 @@ body .main-menu .main-menu-left .about-main-menu-link::after {
   transition: .3s;
 }
 
-body .main-menu .main-menu-left a:hover i {
+body .main-menu .main-menu-left .dropdown:hover i {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
@@ -635,7 +635,7 @@ body .main-menu .main-menu-lang a i {
   transition: all .3s ease;
 }
 
-body .main-menu .main-menu-lang a:hover i {
+body .main-menu .main-menu-lang .dropdown:hover i {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
